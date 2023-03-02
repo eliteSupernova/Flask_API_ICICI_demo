@@ -1,0 +1,17 @@
+1.First Create the Database with name "icici_direct"
+2.Then in that database create one table which is given below:-
+
+CREATE TABLE `icici_mobile_app_andriod_5min` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Page_name` varchar(500) NOT NULL,
+  `Response_time` float NOT NULL,
+  `StartTime` datetime NOT NULL,
+  `EndTime` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+);
+
+3.Then after that i shared one csv file which contains the data
+that data you have to insert into 'icici_mobile_app_andriod_5min' in
+Database 
+
+4.Make API for Comparision of 7 days response data average time.
